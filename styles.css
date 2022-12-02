@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family=Kumbh+Sans&display=swap');
+html{
+    background-color: hsl(227, 10%, 46%);
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 60%;
+    background-position: top 200% left -20%, bottom 240% right -30%;
+
+}
+.container{
+    width: 30%;
+    margin-left: 35%;
+    min-width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.background{
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.parentVictorImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.victorImage{
+    border-radius: 50%;
+    border: 5px solid white;
+    z-index: 10;
+    margin-top: -15%;
+}
+.container h2{
+    margin: 0px;
+}
+.info{
+    display: inline-block;
+}
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 15px;
+}
+.infoContainer h2{
+    margin-left: 3%;
+}
+.infoContainer .age{
+    color: hsl(227, 10%, 46%);
+}
+.city{
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+
+hr{
+    background-color: hsl(227, 10%, 46%);
+    filter: opacity(0.2);
+    margin-top: 8%;
+}
+
+.stadistics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.stadistics p{
+    color: hsl(227, 10%, 46%);
+}
+
+.followers{
+    margin-left: 30%;
+}
+
+.photos{
+    margin-right: 30%;
+}
